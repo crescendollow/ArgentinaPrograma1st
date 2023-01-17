@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: grey;
+}
+
+.nav_li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav_li a{
+    text-decoration: none;
+}
+
+.UserCard{
+    background-color: lightblue;
+    text-align: center;
+    height: 320px;
+}
+
+.UserCard h1,h2,h3{
+    padding: 20px;
+}
+
+.UserCV{
+    float: left;
+    border-radius: 50%;
+    display: block;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+}
+
