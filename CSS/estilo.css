@@ -27,13 +27,8 @@ header{
 }
 
 .UserCV{
-    float: left;
-    border-radius: 50%;
-    display: block;
-    padding: 10px;
-    margin-left: 150px;
-    margin-right: auto;
+    padding: 15px;
     width: 300px;
     height: 300px;
+    border-radius: 50%;
 }
-
