@@ -1,19 +1,7 @@
 *{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-}
-
-header{
-    background-color: grey;
-}
-
-.nav_li{
-    display: inline-block;
-    padding: 10px;
-}
-
-.nav_li a{
-    text-decoration: none;
 }
 
 .UserCard{
@@ -31,4 +19,20 @@ header{
     width: 300px;
     height: 300px;
     border-radius: 50%;
+}
+
+.contactList{
+    list-style: none;
+}
+
+.contactList li a{
+    color: black;
+    text-decoration: none;
+}
+
+.userDisplayName{
+    text-align: center;
+    font-size: 100px;
+    margin: 100px auto;
+    background-color: lightpink;
 }
