@@ -21,11 +21,38 @@
     border-radius: 50%;
 }
 
+.userPanel{
+    background-color: lightgray;
+}
+
+.espList{
+    margin-left: 50px;
+    text-align: left;
+    font-size: large;
+    padding: 5px;
+}
+
 .contactList{
+    text-align: left; 
     list-style: none;
 }
 
-.contactList li a{
+.contactList li{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.socialList{
+    text-align: left;
+    list-style: none;
+}
+
+.socialList img{
+    padding: 5px;
+    margin: 5px;
+}
+
+.listItem{
     color: black;
     text-decoration: none;
 }
